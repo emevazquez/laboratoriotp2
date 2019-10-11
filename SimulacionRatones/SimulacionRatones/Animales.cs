@@ -16,7 +16,7 @@ namespace SimulacionRatones
         {
             this.posicion = posicion;
             vida = true;
-            hambre = 2;
+            hambre = 0;
         }
 
         public abstract void Mover();
