@@ -8,12 +8,14 @@ namespace SimulacionRatones
 {
     abstract class Animales
     {
+        string nombre;
         bool vida;
         int posicion;
         int hambre;
 
-        public Animales(int posicion)
+        public Animales(int posicion, string nom)
         {
+            this.nombre = nom;
             this.posicion = posicion;
             vida = true;
             hambre = 0;
